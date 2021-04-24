@@ -1,0 +1,48 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	line-height:0;
+	background-color: #445;
+}
+
+body div {
+	background-color: #545;
+}
+
+#main p, #main label {
+	text-shadow: 1px 1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000, -1px -1px 0px #000;
+	color: #f00;
+}
+
+.cajon {
+	border-color: #090;
+}
+
+#welcome {
+	font: 2.5em bold;
+}
+
+#main {
+	float: left;
+	border: solid #009;
+}
+
+#result {
+	float: right;
+	border: solid #009;
+	background-color: #fff;
+	padding: 5px;
+}
+
+#miboton {
+	background-color: #06f;
+}
